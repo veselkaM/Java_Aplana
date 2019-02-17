@@ -8,7 +8,7 @@ public class Task05 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число: ");
-        int number = scanner.nextInt();
+        float number = scanner.nextFloat();
         int i = 1;
 
         System.out.println("1 x " + number + " = " + number*i);
