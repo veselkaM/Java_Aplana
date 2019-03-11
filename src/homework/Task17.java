@@ -16,11 +16,11 @@ public class Task17 {
                 System.out.print(": ");
                 s = br.readLine();
 
-                if (s.compareTo("stop") == 0) break;
+                if (s.equals("stop")) break;
 
                 s = s + "\r\n";
                 fw.write(s);
-            } while (s.compareTo("stop") != 0);
+            } while (!s.equals("stop"));
         } catch (IOException exc) {
             System.out.println("Ошибка ввода-вывода: " + exc);
         }

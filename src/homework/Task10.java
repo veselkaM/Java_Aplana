@@ -25,11 +25,16 @@ public class Task10 {
             }
         }
 
-        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < x; j++) {
+                System.out.print(matrixA[0][j]*3 + "\t");
+
+        }
+
+    /*    for (int i = 0; i < 1; i++) {
             for (int j = 0; j < x; j++) {
                 System.out.print(matrixA[i][j]*3 + "\t");
             }
             System.out.println();
-        }
+        } */
     }
 }

@@ -6,22 +6,18 @@ public class Task14 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 1. Ввод числа с клавиатуры и запись его в строковую переменную S
-        System.out.println("Введите целое число");
+        System.out.println("Введите число");
         String s = scanner.nextLine();
 
-        //2. Конвертация строковой переменной S в числовую переменную X типа int
-        int x = 0;
+
         try {
-            x = Integer.parseInt(s);
+            double y = Double.parseDouble(s);
+            int x = (int) Math.round(y);
+            y = x;
+            System.out.println(s + "\n" + x + "\n" + y);
         } catch (NumberFormatException e) {
-            System.err.println("Неверный формат строки!");
+            System.err.println("Неверный формат числа!");
         }
-
-        //3. Конвертация числа X типа int в число Y типа double
-        double y = x;
-
-        System.out.println(s + "\n" + x + "\n" + y);
 
 
     }

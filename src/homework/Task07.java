@@ -15,7 +15,7 @@ public class Task07 {
         System.out.print("Введите число: ");
         double t = scanner.nextDouble();
 
-        if (t==x | t==y | t==z) {
+        if (t==x || t==y || t==z) {
             System.out.println("Данное значение имеется в константах");
         } else {
             System.out.println("Такой константы нет!");

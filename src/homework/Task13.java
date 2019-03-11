@@ -19,7 +19,7 @@ public class Task13 {
         } else if (lenFirst < lenSecond) {
             System.out.println(stringSecond);
         } else {
-            System.out.println("Переменные равны");
+            System.out.println("Длина строк равна");
         }
 
     }

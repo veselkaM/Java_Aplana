@@ -7,6 +7,6 @@ public class Task18 {
 
 
     }
-    
+
 }
 
