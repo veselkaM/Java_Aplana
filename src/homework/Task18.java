@@ -8,6 +8,7 @@ public class Task18 {
         String s;
         int linesCount = 0;
 
+        //читаем все строки
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             while ((s = br.readLine()) != null) {
                 System.out.println(s);
@@ -16,7 +17,8 @@ public class Task18 {
             System.out.println("Ошибка ввода-вывода: " + exc);
         }
 
-        try (LineNumberReader lnr = new LineNumberReader(new FileReader(file))){
+        //считаем количество строк
+        try (LineNumberReader lnr = new LineNumberReader(new FileReader(file))) {
             while (null != lnr.readLine()) {
                 linesCount++;
             }
@@ -25,6 +27,7 @@ public class Task18 {
             System.out.println("Ошибка ввода-вывода: " + exc);
         }
 
+        //перезаписываем всё в файле с тем же количеством строк
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Введите такое же количество строк: ");
         try (FileWriter fw = new FileWriter("test.txt")) {
@@ -34,7 +37,6 @@ public class Task18 {
                 s = s + "\r\n";
                 fw.write(s);
             }
-
         } catch (IOException exc) {
             System.out.println("Ошибка ввода-вывода: " + exc);
         }
