@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad9d2168-2e08-4f66-aa21-eb2246a95a2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/homework/Task18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/Task18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/homework/Task18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/homework/Task18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tasks/homework/Task1801.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/FinalTask03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/FinalTask03.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework/Task18.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
@@ -22,11 +25,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/homework/FinalTask03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework/Task17.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,7 +85,6 @@
         <option value="$PROJECT_DIR$/src/homework/Task12.java" />
         <option value="$PROJECT_DIR$/src/homework/Task15.java" />
         <option value="$PROJECT_DIR$/src/homework/Task16.java" />
-        <option value="$PROJECT_DIR$/src/homework/FinalTask03.java" />
         <option value="$PROJECT_DIR$/src/homework/Task13.java" />
         <option value="$PROJECT_DIR$/src/homework/Task07.java" />
         <option value="$PROJECT_DIR$/src/homework/Task10.java" />
@@ -81,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/homework/Task17.java" />
         <option value="$PROJECT_DIR$/src/homework/Task1801.java" />
         <option value="$PROJECT_DIR$/src/homework/Task18.java" />
+        <option value="$PROJECT_DIR$/src/homework/FinalTask03.java" />
       </list>
     </option>
   </component>
@@ -125,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552749677277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552750213424" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -148,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task1801">
+  <component name="RunManager" selected="Application.FinalTask03">
     <configuration name="FinalTask02_v2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.FinalTask02_v2" />
       <module name="Tasks" />
@@ -162,8 +177,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.Task04" />
+    <configuration name="FinalTask03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.FinalTask03" />
       <module name="Tasks" />
       <extension name="coverage">
         <pattern>
@@ -216,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalTask03" />
         <item itemvalue="Application.Task1801" />
         <item itemvalue="Application.Task18" />
         <item itemvalue="Application.Task17" />
         <item itemvalue="Application.FinalTask02_v2" />
-        <item itemvalue="Application.Task04" />
       </list>
     </recent_temporary>
   </component>
@@ -239,12 +254,12 @@
       <workItem from="1550416536411" duration="34000" />
       <workItem from="1550416583845" duration="13218000" />
       <workItem from="1552199183325" duration="105000" />
-      <workItem from="1552200225318" duration="28251000" />
+      <workItem from="1552200225318" duration="28561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48498000" />
+    <option name="totallyTimeSpent" value="48808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -357,24 +372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework/FinalTask03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework/FinalTask01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework/FinalTask02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -433,16 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/homework/Task17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework/Task1801.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -453,10 +444,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework/FinalTask02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework/Task18.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework/Task17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/homework/FinalTask03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
