@@ -4,33 +4,22 @@ import java.util.Scanner;
 
 public class FinalTask01 {
         public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ввести число в бинарном формате: ");
+        String bin = scanner.nextLine();
+        System.out.println(toDecimal(bin));
+    }
 
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Ввести число в бинарном формате: ");
-            String bin = scanner.nextLine();
-            BinToDec(bin);
-            System.out.println(BinToDec(bin));
-
-        }
-
-        public static int pow(int x, int y) {
-            int result = 1;
-            for (int i = 0; i < y; i++) {
-                result = result * x;
+    public static int toDecimal(String str) {
+        char[] chars = str.toCharArray();
+        int result = 0;
+        int mult = 1;
+        for (int i = str.length() - 1; i >= 0; i--) {
+            if (chars[i] == '1') {
+                result += mult;
             }
-            return result;
+            mult *= 2;
         }
-
-        public static int BinToDec(String bin){
-            int res = 0, a = 0, mult = 0;
-            char[] symbols = bin.toCharArray();
-            for(int len = symbols.length-1; len >= 0; len--){
-                int temp = 0;
-                a = Character.getNumericValue(symbols[len]);
-                temp = a * pow(2, mult);
-                mult++;
-                res = res +temp;
-            }
-            return res;
-        }
+        return result;
+    }
 }
