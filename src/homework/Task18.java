@@ -3,7 +3,7 @@ package homework;
 import java.io.*;
 
 public class Task18 {
-    public static void main(String[] args) throws IOException {
+     public static void main(String[] args) throws IOException {
         File file = new File("test.txt");
         String s;
         int linesCount = 0;
@@ -12,14 +12,6 @@ public class Task18 {
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             while ((s = br.readLine()) != null) {
                 System.out.println(s);
-            }
-        } catch (IOException exc) {
-            System.out.println("Ошибка ввода-вывода: " + exc);
-        }
-
-        //считаем количество строк
-        try (LineNumberReader lnr = new LineNumberReader(new FileReader(file))) {
-            while (null != lnr.readLine()) {
                 linesCount++;
             }
             System.out.println("Количество строк в файле: " + linesCount);
